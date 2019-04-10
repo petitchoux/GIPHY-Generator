@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GIPHY Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+<br>
+        <div class="form-group">
+        <label for="email">Who is this being sent to?</label>
+        <input type="email" class="form-control" id="userEmail" placeholder="JohnSmith@gmail.com">
+      </div>
+      <div class="form-group">
+            <label for="gifRequest">What GIF are you searching for?</label>
+            <input type="text" class="form-control" id="gifForm" placeholder="Cats">
+            <small id="emailHelp" class="form-text text-muted">Or leave this blank to get a randomized result</small>
+          <button class="btn btn-primary btn-lg btn-block " type="submit " onclick="onSubmit()">Search</button>
+        </div>
+
+    </div> 
+
+    <div id="result"></div>
+
+    <script src="./script.js"></script>
+
+        
+</body>
+</html>
